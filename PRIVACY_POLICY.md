@@ -62,8 +62,8 @@ You can:
 ## Contact Us
 
 For privacy concerns or questions about this policy, please contact us:
-- Email: [your-email@example.com]
-- Telegram: [@your_telegram_handle]
+- Email: [leinad07912@gmail.com]
+- Telegram: [@leinadbelove]
 
 ## Changes to This Policy
 
