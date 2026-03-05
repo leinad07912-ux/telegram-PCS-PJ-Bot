@@ -300,6 +300,9 @@ bot.on('message', async (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
 
+  // Skip if no text (e.g., photo, video, buttons)
+  if (!text) return;
+
   if (text.startsWith('/')) return;
 
   const session = userSessions.get(chatId);
