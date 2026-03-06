@@ -656,6 +656,24 @@ bot.on('error', (error) => {
   console.log('✓ Bot is running. Send /start to begin.');
   console.log(`✓ Fixed: ${FIXED_LEVEL1} > ${FIXED_LEVEL2}`);
   console.log(`✓ User selects from ${allBlocks.length} blocks`);
+
+  // ===== PREVENT FREEZING =====
+  
+  // Heartbeat - keep connection alive (every 5 minutes)
+  setInterval(() => {
+    console.log('💓 Bot heartbeat - still alive at', new Date().toLocaleTimeString());
+  }, 5 * 60 * 1000);
+
+  // Auto-restart every 12 hours to clear memory and prevent freezing
+  // Railway will automatically restart the process
+  setInterval(() => {
+    console.log('🔄 Bot auto-restart scheduled (memory cleanup)...');
+    console.log('🛑 Restarting in 10 seconds...');
+    setTimeout(() => {
+      bot.stopPolling();
+      process.exit(0);
+    }, 10 * 1000);
+  }, 12 * 60 * 60 * 1000); // 12 hours
 })();
 
 process.on('SIGINT', () => {
