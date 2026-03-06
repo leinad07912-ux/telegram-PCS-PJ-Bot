@@ -1,40 +1,26 @@
 {
-  "C2 - Avanzare - Installation Report": {
-    "Blk 103 Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ],
-    "Blk 106 Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ],
-    "Blk 108 Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ],
-    "Blk 110 Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ],
-    "Blk 112 Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ],
-    "Blk 114 Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ],
-    "Blk 115 Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ],
-    "Blk 115A Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ],
-    "Blk 115C Yishun Ring Road": [
-      "Folder 1",
-      "Folder 2"
-    ]
+  "C2 - Avanzare": {
+    "Installation Report": {
+      "Blk 103 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 106 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 108 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 110 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 112 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 114 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 115 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 115A Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 115C Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 117 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 119 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 121 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 123 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 125 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 127 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 129 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 131 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 133 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 135 Yishun Ring Road": ["Folder 1", "Folder 2"],
+      "Blk 137 Yishun Ring Road": ["Folder 1", "Folder 2"]
+    }
   }
 }
